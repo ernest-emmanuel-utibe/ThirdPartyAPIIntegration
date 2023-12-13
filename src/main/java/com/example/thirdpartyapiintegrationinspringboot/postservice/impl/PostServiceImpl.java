@@ -19,13 +19,13 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class PostServiceImpl implements PostService {
 
-    // Create the baseUrl and keep it same so as all endpoints can hit the url
+    // Create the baseUrl and keep it same so as all endpoints can hit the url.
     String baseUrl = "https://jsonplaceholder.typicode.com/";
 
-    // Pass the baseUrl to the new StringBuilder object
+    // Pass the baseUrl to the new StringBuilder object.
     StringBuilder stringBuilder = new StringBuilder(baseUrl);
 
-    // This will make the Url independent
+    // This will make the Url independent.
     String POST = "/posts";
     String POST_BY_ID = "/posts/";
 
