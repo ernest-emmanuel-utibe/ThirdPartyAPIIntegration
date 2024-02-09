@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+
 @Service
 @RequiredArgsConstructor
 public class PostServiceImpl implements PostService {
@@ -27,6 +28,7 @@ public class PostServiceImpl implements PostService {
     // This will make the Url independent.
     String POST = "/posts";
     String POST_BY_ID = "/posts/";
+
 
     private final RestTemplate restTemplate;
 
