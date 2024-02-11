@@ -3,7 +3,6 @@ package com.example.thirdpartyapiintegrationinspringboot.controller;
 import com.example.thirdpartyapiintegrationinspringboot.postservice.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Map;
 
