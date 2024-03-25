@@ -12,7 +12,7 @@ import java.util.Map;
 public class PostController {
 
     private final PostService postService;
-
+    
     @GetMapping("/getPosts")
     List<Map<String, Object>> getAllPosts() {
         return postService.getPosts();
